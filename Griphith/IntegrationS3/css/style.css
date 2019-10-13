@@ -1,0 +1,78 @@
+*{box-sizing:border-box;position:relative;}
+
+.blanc{color : #ffffff;}
+.noir{color : #191D0F}
+.vert1{color : #A5FF00}
+.vert2{color : #004500}
+.bleu{color : #00879D}
+.bgBlanc{background-color:#191D0F;}
+.bgNoir{background-color:#191D0F;}
+.bgVert1{background-color:#A5FF00;}
+.bgVert2{background-color:#004500;}
+.bgBleu{background-color:#00879D;}
+
+body{
+    font-size:12pt;
+}
+H1{
+    font-size: 52pt;
+    font-weight: 900;
+    padding: 15px 0;
+    margin: 0;
+    line-height: 1em;
+}
+h2{
+    font-size: 40pt;
+    font-weight: 600;
+    padding: 15px 0;
+    margin: 0;
+    line-height: 1em;
+}
+h3{
+    font-size: 27pt;
+    font-weight: 400;
+    padding: 15px 0;
+    margin: 0;
+    line-height: 1em;
+}
+h4{
+    font-size: 20pt;
+    font-weight: 400;
+    padding: 7.5px 0;
+    margin: 0;
+    line-height: 1em;
+}
+h5{
+    font-size: 20pt;
+    font-weight: 400;
+    padding: 7.5px 0;
+    margin: 0;
+    line-height: 1em;
+}
+p{
+    font-size: 12pt;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+em {
+    font-style: italic; 
+}
+
+#section1{
+    background: #A5FF00;
+    padding: 200px;
+}
+
+header{
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+}
+
+li{
+    display: inline;
+}
+
+@media screen and (max-width : 1000px){
+
+}
