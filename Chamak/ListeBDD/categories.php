@@ -1,6 +1,10 @@
 <?php include_once("fonctions/functions.php");?>
 
 <html>
+	<head>
+		<title>Categories</title>
+	</head>
+
 	<body>
     <?php
       if(isset($_POST['id_categorie']) || isset($_POST['nom_categorie'])){

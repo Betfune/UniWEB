@@ -1,6 +1,10 @@
 <?php include_once("fonctions/functions.php"); ?>
 
 <html>
+	<head>
+		<title>Menu</title>
+	</head>
+
 
 	<body>
 		<a href="categories.php?action=add">Ajouter une catégorie</a>
