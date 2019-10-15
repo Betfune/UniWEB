@@ -46,4 +46,21 @@ function removeCategory($idCatToDelete){
 	$result = mysqli_query($connexion,$sql);
 }
 
+function listAllMedias(){
+
+}
+
+
+function removeMedias(){
+
+}
+
+function addMedia(){
+
+}
+
+function listAllMediasTypes(){
+
+}
+
 ?>
