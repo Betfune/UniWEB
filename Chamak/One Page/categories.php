@@ -13,7 +13,7 @@
         switch($_GET["action"]){
           case "add":
             addCategory("categories", $_POST['nom_categorie']);
-            echo "Catégorie " .$_POST['nom_categorie']. " crée <br>";
+            echo "Catégorie " .$_POST['nom_categorie']. " créée <br>";
             $_GET["action"]="done";
           break;
 
