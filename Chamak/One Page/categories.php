@@ -12,13 +12,13 @@
       if(isset($_POST['id_categorie']) || isset($_POST['nom_categorie'])){
         switch($_GET["action"]){
           case "add":
-            addCategory("categories", $_POST['nom_categorie']);
+            addCategory("categories", "Nom_Categorie", $_POST['nom_categorie']);
             echo "Catégorie " .$_POST['nom_categorie']. " créée <br>";
             $_GET["action"]="done";
           break;
 
           case "remove":
-            removeCategory("categories", $_POST['id_categorie']);
+            removeCategory("categories", "id_categorie", $_POST['id_categorie']);
             $_GET["action"]="done";
             echo "Catégorie supprimée <br>";
           break;

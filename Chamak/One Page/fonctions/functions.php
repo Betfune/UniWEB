@@ -34,16 +34,16 @@
 		return $tabAllCategories;
 	}
 
-	function addCategory($nomTable, $nomRow)  {
+	function addCategory($nomTable, $nomColonne, $valeur)  {
 		$connexion = connectDB();
-		$sql="INSERT INTO `$nomTable` (`Nom_Categorie`) VALUES ('$nomRow')";
-		$result = mysqli_query($connexion,$sql);
+		$sql="INSERT INTO `$nomTable` (`$nomColonne`) VALUES ('$valeur')";
+		mysqli_query($connexion,$sql);
 	}
 
-	function removeCategory($nomTable, $id)  { //Utilise l'id de la categorie
+	function removeCategory($nomTable, $idCat, $id)  { //Utilise l'id de la categorie
 		$connexion = connectDB();
-		$sql="DELETE FROM `$nomTable` WHERE id_categorie = $id";
-		$result = mysqli_query($connexion, $sql);
+		$sql="DELETE FROM `$nomTable` WHERE $idCat = $id";
+		mysqli_query($connexion, $sql);
 	}
 
 ?>
